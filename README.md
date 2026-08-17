@@ -18,7 +18,6 @@ java/          tcp/ udp/ multicast/ websocket/
 python/        tcp/ udp/ multicast/ websocket/
 evidencias/    prints de execução, um por protocolo/linguagem
 logs/          saída capturada nas execuções de teste
-scripts/       demo.ps1, abre os terminais de cada parte
 RESPOSTAS.md   as 12 questões do roteiro
 ```
 
@@ -60,17 +59,7 @@ usadas são:
 
 ## Como executar
 
-O script abaixo abre os terminais já na pasta certa, com `Get-Date` na tela para a evidência,
-compilando o Java quando necessário:
-
-```powershell
-.\scripts\demo.ps1 -Parte tcp       -Linguagem java
-.\scripts\demo.ps1 -Parte udp       -Linguagem python
-.\scripts\demo.ps1 -Parte multicast -Linguagem java
-.\scripts\demo.ps1 -Parte websocket -Linguagem python
-```
-
-Manualmente, seguindo o roteiro:
+Cada parte precisa de um terminal para o servidor e um para cada cliente:
 
 ```powershell
 cd java/tcp;   javac ServidorTCP.java ClienteTCP.java;  java ServidorTCP;  java ClienteTCP
