@@ -1,0 +1,5 @@
+[TCP] Servidor aguardando conexoes na porta 5000...
+[TCP] Cliente conectado: /127.0.0.1:52562
+[TCP] Recebido: sou o cliente A
+[TCP] Recebido: sair
+[TCP] Servidor encerrado.

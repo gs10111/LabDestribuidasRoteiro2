@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\gabriel\Desktop\LabDestribuidasRoteiro2\python\udp\cliente_udp.py", line 18, in <module>
+    dados, _ = cliente.recvfrom(1024)
+               ^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "C:\Users\gabriel\Desktop\LabDestribuidasRoteiro2\python\tcp\cliente_tcp.py", line 9, in <module>
+    cliente.connect((HOST, PORTA))
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
