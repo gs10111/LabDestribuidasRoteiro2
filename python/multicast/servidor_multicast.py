@@ -1,7 +1,7 @@
 import socket
 import time
 
-OFFSET = 0
+OFFSET = 16
 
 GRUPO_MULTICAST = "230.0.0.1"
 PORTA = 4446 + OFFSET

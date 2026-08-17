@@ -2,7 +2,7 @@ import java.net.*;
 import java.io.IOException;
 
 public class ServidorMulticast {
-    static final int OFFSET = 0;
+    static final int OFFSET = 16;
 
     public static void main(String[] args) throws IOException, InterruptedException {
         String grupoMulticast = "230.0.0.1";

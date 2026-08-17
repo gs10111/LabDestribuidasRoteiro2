@@ -1,5 +1,5 @@
-[UDP] Servidor aguardando datagramas na porta 5001...
-[UDP] Recebido de ('127.0.0.1', 50321): Ola monitor por UDP
-[UDP] Recebido de ('127.0.0.1', 50321): Chegou essa?
-[UDP] Recebido de ('127.0.0.1', 50321): sair
+[UDP] Servidor aguardando datagramas na porta 5017...
+[UDP] Recebido de ('127.0.0.1', 59796): Ola monitor por UDP
+[UDP] Recebido de ('127.0.0.1', 59796): Chegou essa?
+[UDP] Recebido de ('127.0.0.1', 59796): sair
 [UDP] Um cliente anterior fechou o socket (ICMP port unreachable). Continuando.

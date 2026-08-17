@@ -5,7 +5,7 @@ import java.util.Scanner;
 import java.util.concurrent.CompletionStage;
 
 public class MuralCliente {
-    static final int OFFSET = 0;
+    static final int OFFSET = 16;
 
     public static void main(String[] args) throws Exception {
         HttpClient client = HttpClient.newHttpClient();

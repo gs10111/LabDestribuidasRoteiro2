@@ -1,7 +1,7 @@
 import java.net.*;
 
 public class ServidorUDP {
-    static final int OFFSET = 0;
+    static final int OFFSET = 16;
 
     public static void main(String[] args) throws Exception {
         int porta = 5001 + OFFSET;

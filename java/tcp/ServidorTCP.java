@@ -4,7 +4,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 public class ServidorTCP {
-    static final int OFFSET = 0;
+    static final int OFFSET = 16;
 
     public static void main(String[] args) throws IOException {
         int porta = 5000 + OFFSET;

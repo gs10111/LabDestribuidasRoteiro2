@@ -1,7 +1,7 @@
-[WebSocket] Servidor do mural iniciado na porta 8887.
-[WebSocket] Novo aluno conectado: /127.0.0.1:52481
-[WebSocket] Novo aluno conectado: /127.0.0.1:52480
+[WebSocket] Servidor do mural iniciado na porta 8903.
+[WebSocket] Novo aluno conectado: /127.0.0.1:53911
+[WebSocket] Novo aluno conectado: /127.0.0.1:53912
 [WebSocket] Recebido: Pessoal, a prova foi adiada para sexta
 [WebSocket] Recebido: Valeu pelo aviso, monitor!
-[WebSocket] Aluno desconectado: /127.0.0.1:52480
-[WebSocket] Aluno desconectado: /127.0.0.1:52481
+[WebSocket] Aluno desconectado: /127.0.0.1:53912
+[WebSocket] Aluno desconectado: /127.0.0.1:53911

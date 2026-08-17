@@ -47,8 +47,16 @@ Invoke-WebRequest "$base/org/slf4j/slf4j-simple/2.0.9/slf4j-simple-2.0.9.jar" -O
 ## OFFSET das portas
 
 Cada arquivo tem uma constante `OFFSET` no topo, somada à porta base (seção 3.3 do roteiro).
-Ela está em `0` e deve ser trocada pelos dois últimos dígitos do RA antes de rodar em máquina
-compartilhada, usando o mesmo valor no servidor e no cliente da mesma parte.
+Ela está em `16`, os dois últimos dígitos da matrícula 1466316, então as portas efetivamente
+usadas são:
+
+| Parte | Porta base | Porta usada |
+|---|---|---|
+| TCP | 5000 | 5016 |
+| UDP | 5001 | 5017 |
+| Multicast | 4446 | 4462 |
+| WebSocket Java | 8887 | 8903 |
+| WebSocket Python | 8888 | 8904 |
 
 ## Como executar
 

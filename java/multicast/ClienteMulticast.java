@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.util.Enumeration;
 
 public class ClienteMulticast {
-    static final int OFFSET = 0;
+    static final int OFFSET = 16;
 
     public static void main(String[] args) throws IOException {
         String grupoMulticast = "230.0.0.1";

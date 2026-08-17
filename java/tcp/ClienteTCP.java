@@ -2,7 +2,7 @@ import java.io.*;
 import java.net.*;
 
 public class ClienteTCP {
-    static final int OFFSET = 0;
+    static final int OFFSET = 16;
 
     public static void main(String[] args) throws IOException {
         String host = "localhost";

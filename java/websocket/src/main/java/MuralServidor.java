@@ -5,7 +5,7 @@ import org.java_websocket.server.WebSocketServer;
 import java.net.InetSocketAddress;
 
 public class MuralServidor extends WebSocketServer {
-    static final int OFFSET = 0;
+    static final int OFFSET = 16;
 
     public MuralServidor(int porta) {
         super(new InetSocketAddress(porta));
