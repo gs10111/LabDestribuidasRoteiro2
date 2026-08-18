@@ -1,3 +1,4 @@
+(Auxilio de IA(claude))
 # Central de Avisos da Turma — Lab de Redes
 
 Roteiro 2 (U0, Nivelamento de Redes) da disciplina de Laboratório de Desenvolvimento de
